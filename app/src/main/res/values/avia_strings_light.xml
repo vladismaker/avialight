@@ -1,0 +1,16 @@
+<resources>
+    <string name="avia_app_name_light">Avialight</string>
+
+    <string name="avia_error_light">error</string>
+    <string name="avoa_404_light">404</string>
+    <string name="avia_200_light">200</string>
+    <string name="avia_0_light">0</string>
+
+    <string name="avia_dom_rest_ball_horsassn_light">klivornex.space</string>
+    <string name="avia_pac_n_light">com.light.avia.app</string>
+
+    <string name="avia_f_app_d_light">909837667162236</string>
+    <string name="avia_tok_light">d5a611ddf3ebfba1e14426c1aa210528</string>
+    <string name="avia_select_light">Select your favorite airplane</string>
+    <string name="avia_again_light">Again</string>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="avia_black_light">#FF000000</color>
+    <color name="avia_white_light">#FFFFFFFF</color>
+    <color name="avia_transparent_light">#00FFFFFF</color>
+</resources>

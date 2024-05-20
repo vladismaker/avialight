@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".AviaGameLightFragment"
+    android:background="@drawable/avia_background_for_game_light">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/avia_name_light"
+        android:importantForAccessibility="no"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="bottom"
+        android:weightSum="2"
+        android:gravity="center"
+        android:orientation="horizontal"
+        tools:ignore="UselessParent">
+        <ImageView
+            android:id="@+id/avia_airplane_one_light"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="80dp"
+            android:src="@drawable/avia_airplane_one_light"
+            android:importantForAccessibility="no"
+            android:layout_gravity="bottom"/>
+        <ImageView
+            android:id="@+id/avia_airplane_two_light"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="80dp"
+            android:src="@drawable/avia_airplane_two_light"
+            android:importantForAccessibility="no"
+            android:layout_gravity="bottom"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/avia_again_light"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:text="@string/avia_again_light"
+        android:textColor="@color/avia_white_light"
+        android:textSize="27sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/avia_background_for_button_light"
+        android:visibility="gone"/>
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/avia_lottie_result_light"
+        android:layout_width="210dp"
+        android:layout_height="200dp"
+        app:lottie_rawRes="@raw/avia_load_light"
+        app:lottie_autoPlay="true"
+        android:layout_gravity="center"
+        app:lottie_speed="0.5"
+        app:lottie_loop="true"
+        android:visibility="gone"
+        android:scaleType="fitCenter"/>
+</FrameLayout>

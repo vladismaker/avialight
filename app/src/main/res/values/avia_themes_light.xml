@@ -1,0 +1,8 @@
+<resources>
+    <style name="Base.Theme.Avialight" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:statusBarColor">@color/avia_black_light</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+
+    <style name="Theme.Avialight" parent="Base.Theme.Avialight" />
+</resources>
